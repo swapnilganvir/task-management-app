@@ -4,7 +4,8 @@ import axios from 'axios';
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = props => {
-  const URL = 'http://localhost:4000';
+  // const URL = 'http://localhost:4000';
+  const URL = 'https://task-management-backend-a35c.onrender.com';
 
   const [tasksData, setTasksData] = useState([]);
 
